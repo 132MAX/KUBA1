@@ -1,5 +1,6 @@
 import React from 'react';
 import "./style.css"
+
 export default () => {
     return (
 
@@ -16,13 +17,13 @@ export default () => {
             </div>
             <nav className="menu">
                 <ul className="menu__list">
-                    <li className="munu__list-item"><a href="#" className="menu__list-link">Резюме</a></li>
-                    <li className="munu__list-item"><a href="#" className="menu__list-link">Главная</a></li>
-                    <li className="munu__list-item"><a href="#" className="menu__list-link">Виды</a></li>
-                    <li className="munu__list-item"><a href="#" className="menu__list-link">Погода</a></li>
-                    <li className="munu__list-item"><a href="#" className="menu__list-link">Что сделать</a></li>
-                    <li className="munu__list-item"><a href="#" className="menu__list-link">Резиденции</a></li>
-                    <li className="munu__list-item"><a href="#" className="menu__list-link">Фото</a></li>
+                    <li className="munu__list-link"><a href="#" className="menu__list-link">Резюме</a></li>
+                    <li className="munu__list-link"><a href="#" className="menu__list-link">Главная</a></li>
+                    <li className="munu__list-link"><a href="#" className="menu__list-link">Виды</a></li>
+                    <li className="munu__list-link"><a href="#" className="menu__list-link">Погода</a></li>
+                    <li className="munu__list-link"><a href="#" className="menu__list-link">Что сделать</a></li>
+                    <li className="munu__list-link"><a href="#" className="menu__list-link">Резиденции</a></li>
+                    <li className="munu__list-link"><a href="#" className="menu__list-link">Фото</a></li>
                 </ul>
             </nav>
         </header>
