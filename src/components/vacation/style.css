@@ -1,0 +1,37 @@
+*{
+    font-family: Lato;
+}
+.conteiner{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.conteiner-content{
+    max-width: 970px;
+    margin: 0 auto;
+}
+.reason{
+    padding: 80px 0;
+}
+.reason__title{
+    font-family: Georgia;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #4E5665;
+    margin-bottom: 22px;
+}
+.reason__text{
+font-size: 16px;
+line-height: 28px;
+align-items: center;
+color: #505050;
+}
+.reason__link{
+    text-align: right;
+    
+}
+.reason__link a{
+font-weight: 700;
+color: #ECB84C;
+}
