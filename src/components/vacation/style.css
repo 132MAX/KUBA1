@@ -34,4 +34,20 @@ color: #505050;
 .reason__link a{
 font-weight: 700;
 color: #ECB84C;
+margin-bottom: 36px;
+}
+.reason__statistics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.reason__statistics-num{
+    margin-top: 32px;
+    color: #4e5665;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+}
+.reason__statistics-text{
+
 }

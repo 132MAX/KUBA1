@@ -23,7 +23,7 @@ export default () => {
             <div className="reason__link conteiner-content">
                 <a href="#">Read More ››</a>
             </div>
-            <div className="reason__statistics">
+            <div className="reason__statistics conteiner-content">
                 
                     <div className="reason__statistics-ites">
                         <img src={Statistics1} alt="" className="reason__statistics-images" />
