@@ -8,8 +8,8 @@ import Statistics4 from "./../images/statistics-4.svg";
 export default () => {
     return (
         <div className="reason">
-            <div className="conteiner">
-            <h2 className="reason__title">
+            <div className="conteiner section-line">
+            <h2 className="reason__title title">
                 Почему тебе понравится отпуск на Кубе?
             </h2>
             <p className="reason__text conteiner-content">

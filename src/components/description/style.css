@@ -1,0 +1,22 @@
+.abaut{
+    padding: 80px 0 0;
+}
+.about__title{
+    margin-bottom: 13px;
+}
+.about__item{
+    margin-bottom: 100px;
+}
+.about__box{
+    background-color: #fff;
+    padding: 33px 40px 18px 40px;
+    max-width: 470px;
+    position: relative;
+}
+.about__box-title{
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: 25px;
+    color: #4E5665;
+    margin-bottom: 20px;
+}
