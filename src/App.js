@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "./components/header/Header.js"
 import Vacation from "./components/vacation/Vacation"
 import Description from "./components/description/Description"
+import Foto from "./components/foto/Foto"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Header/>
     <Vacation/>
     <Description/>
+    <Foto/>
     </div>
   );
 }

@@ -8,6 +8,20 @@
 
 .about__item {
     margin-bottom: 100px;
+    display: flex;
+    position: relative;
+}
+
+.about__hitting1 {
+    position: absolute;
+    left: 40px;
+    top: 70px;
+}
+
+.about__hitting2 {
+    position: absolute;
+    right: 40px;
+    top: 70px;
 }
 
 .about__box {
@@ -15,6 +29,11 @@
     padding: 33px 40px 18px 40px;
     max-width: 470px;
     position: relative;
+    height: 289px;
+}
+
+.about_img {
+    border-radius: 2%;
 }
 
 .about__box-title {
