@@ -3,6 +3,7 @@ import Header from "./components/header/Header.js"
 import Vacation from "./components/vacation/Vacation"
 import Description from "./components/description/Description"
 import Foto from "./components/foto/Foto"
+import Animation from "./components/animation/Animation"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Vacation/>
     <Description/>
     <Foto/>
+    <Animation/>
     </div>
   );
 }
