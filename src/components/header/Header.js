@@ -6,6 +6,11 @@ export default () => {
 
         <header className="header">
             <div className="header__top">
+                <div className="menu__animation"
+                onClick={()=>alert("OLEG")}>
+
+                </div>
+
                 <div className="header__top-inner">
                     <h1 className="header__title">
                         Куба

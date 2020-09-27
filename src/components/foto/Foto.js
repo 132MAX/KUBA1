@@ -4,6 +4,7 @@ import Photo from "./../images/photo.jpg"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "animate.css"
 import "./style.css";
 
 export default () => {
@@ -15,7 +16,7 @@ export default () => {
         slidesToScroll: 1
     }
     return (
-        <div className="photo">
+        <div className="photo ">
             <div className="conteiner section-line">
                 <h2 className="photo__title title">
                     Куба в фото
@@ -26,11 +27,11 @@ export default () => {
                     горизонта, уходящего в вечность. Это снежная гора почти на
                     экваторе и в пределах видимости суровых пустынь. Это пышная, покрытая пальмами береговая линия океана, это Великая рифтовая долина, которая когда-то угрожала разорвать континент на части, и это густые леса, напоминающие сердце континента. </p>
                 <Slider {...settings} >
-                    <div className="photo__slider">
-                        <img className="photo__slider-img" src={Photo} alt="" />
+                    <div className="photo__slider ">
+                        <img className="photo__slider-img  animate__animated animate__fadeIn" src={Photo} alt="" />
                     </div>
-                    <div className="photo__slider">
-                        <img className="photo__slider-img" src={Photo} alt="" />
+                    <div className="photo__slider  ">
+                        <img className="photo__slider-img " src={Photo} alt="" />
                     </div>
                 </Slider>
             </div>

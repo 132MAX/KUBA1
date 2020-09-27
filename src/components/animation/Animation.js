@@ -1,15 +1,11 @@
 import React,{useState} from "react";
-import {TransitionGroup, CSSTransition } from "react-transition-group"
-import ScrollAnimation from 'react-animate-on-scroll';
 import Cat from "./../images/cat.jpg"
 import "./style.css"
-import "animate.css"
 
 export default()=>{
-    const[image,setImage]= useState(false)
+    const[image,setImage]= useState("")
     return(
         <div className="animation conteiner">
-             <ScrollAnimation animateIn="fadeIn">
             <div className="animation__text">
                 Хотите увидеть киску?
             </div>
@@ -20,12 +16,11 @@ export default()=>{
             
             {image ? 
            
-                <div className="animate__animated animate__tada "> 
+                <div className="animate__animated animate__tada animate__delay-1s animate__repeat-3"> 
                     <img className="animation_img " src={Cat} alt=""/>
                 </div>
             
             : ""}
-           </ScrollAnimation>
         </div>
     )
 }

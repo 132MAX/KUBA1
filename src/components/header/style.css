@@ -26,8 +26,19 @@ a {
     height: 100vh;
     background-position: center;
     padding: 40px;
+    position: relative;
 }
-
+.menu__animation{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 40px;
+    height: 40px;
+    background-image: url("./../images/menu.svg");
+    color:rgba(255, 255, 255, 0.945);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .header__top-inner {
     border: 2px solid #ECB84C;
     border-bottom: none;
