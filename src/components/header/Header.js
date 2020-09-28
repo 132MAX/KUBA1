@@ -1,6 +1,17 @@
 import React from 'react';
+import Menu from "./Menu"
 import "./style.css"
 
+const list =[
+    {key :"Резюме"},
+    {key :"Главная"},
+    {key :"Виды"},
+    {key :"Погода"},
+    {key :"Что"},
+    {key :"сделать"},
+    {key :"Резиденции"},
+    {key :"Фото"}
+]
 export default () => {
     return (
 
@@ -8,8 +19,9 @@ export default () => {
             <div className="header__top">
                 <div className="menu__animation"
                 onClick={()=>alert("OLEG")}>
-
                 </div>
+                
+
 
                 <div className="header__top-inner">
                     <h1 className="header__title">
@@ -20,6 +32,14 @@ export default () => {
                      </p>
                 </div>
             </div>
+            <div className="list">
+                {
+                    list.map((elem , index)=>{
+                        return <Menu
+                        key={elem.key}
+                        />
+                    })}
+                </div>
             <nav className="menu">
                 <ul className="menu__list">
                     <li className="munu__list-link"><a href="#" className="menu__list-link">Резюме</a></li>
