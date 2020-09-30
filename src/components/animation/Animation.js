@@ -6,7 +6,8 @@ export default()=>{
     const[image,setImage]= useState("")
     return(
         <div className="animation conteiner">
-            <div className="animation__text">
+            <div className="animation__text"
+            id="for">
                 Хотите увидеть киску?
             </div>
             <div className="animation_chekbox">
@@ -16,7 +17,7 @@ export default()=>{
             
             {image ? 
            
-                <div className="animate__animated animate__tada animate__delay-1s animate__repeat-3"> 
+                <div className="animate__animated animate__tada  animate__repeat-3"> 
                     <img className="animation_img " src={Cat} alt=""/>
                 </div>
             

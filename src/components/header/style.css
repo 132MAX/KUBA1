@@ -33,7 +33,7 @@ a {
 
 .menu__animation {
     position: absolute;
-    right: 50px;
+    right: 200px;
     top: 50px;
     width: 40px;
     height: 40px;
@@ -41,14 +41,27 @@ a {
     color: rgba(255, 255, 255, 0.945);
     background-repeat: no-repeat;
     background-size: cover;
+    transition: all .7s;
 }
 
-.menulist {
-    background-color: royalblue;
-    height: 20px;
-    color: wheat;
-    margin-left: 20px;
-    border-bottom: 1px solid #000;
+.menu__animation-list {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+.menu__animation-list-name {
+    height: 30px;
+    color: white;
+    width: 180px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.menu__animation-list-name:hover {
+    text-shadow: 0.1em 0.1em 0.2em black;
+    color: aliceblue;
+    cursor: pointer;
 }
 
 .header__top-inner {

@@ -1,30 +1,44 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import Menu from "./Menu"
 import "./style.css"
 
 const list =[
-    {key :"Резюме"},
-    {key :"Главная"},
-    {key :"Виды"},
-    {key :"Погода"},
-    {key :"Что"},
-    {key :"сделать"},
-    {key :"Резиденции"},
-    {key :"Фото"}
+    {name :"Отпуск",
+     nameid:"one"},
+    {name :"Куба это",
+     nameid:"two"},
+    {name :"Фото",
+     nameid:"three"},
+    {name :"Киска",
+     nameid:"for"}
 ]
 export default () => {
+    const [menu , setMenu]= useState(false)
     return (
 
         <header className="header">
             <div className="header__top">
-                <div className="menu__animation"
-                onClick={()=>alert("OLEG")}>
+                <div className="menu__animation-list  ">
+                {
+                    list.map((elem , index)=>{
+                        return <Menu
+                        name={elem.name}
+                        nameid={elem.nameid}
+                        num={index+1}
+                        menu={menu}
+                        />
+                    })
+                }
+                </div>
+                <div className="menu__animation "
+                style={{right: menu ? "250px" : "70px"}}
+                onClick={()=>setMenu(!menu)}>
                 </div>
                 
 
 
                 <div className="header__top-inner">
-                    <h1 className="header__title">
+                    <h1 className="header__title animate__animated  animate__bounceInRight">
                         Куба
                     </h1>
                     <p className="header__text">
@@ -32,15 +46,8 @@ export default () => {
                      </p>
                 </div>
             </div>
-            <div className="list">
-                {
-                    list.map((elem , index)=>{
-                        return <Menu
-                        key={elem.key}
-                        />
-                    })}
-                </div>
-            <nav className="menu">
+            
+            <nav className="menu" id="one">
                 <ul className="menu__list">
                     <li className="munu__list-link"><a href="#" className="menu__list-link">Резюме</a></li>
                     <li className="munu__list-link"><a href="#" className="menu__list-link">Главная</a></li>

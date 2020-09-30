@@ -18,7 +18,8 @@ export default () => {
     return (
         <div className="photo ">
             <div className="conteiner section-line">
-                <h2 className="photo__title title">
+                <h2 className="photo__title title"
+                id="three">
                     Куба в фото
                 </h2>
                 <p className="photo__text">

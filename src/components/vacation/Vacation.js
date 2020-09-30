@@ -9,7 +9,8 @@ export default () => {
     return (
         <div className="reason">
             <div className="conteiner section-line">
-            <h2 className="reason__title title">
+            <h2 className="reason__title title"
+                id="one">
                 Почему тебе понравится отпуск на Кубе?
             </h2>
             <p className="reason__text conteiner-content">
