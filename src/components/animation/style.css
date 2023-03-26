@@ -1,22 +1,25 @@
-.animation{
-    margin-top: 40px;
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 40px;
-    height: 600px;
-}
-.animation__text,
-.animation_chekbox{
-    text-align: center;
-    padding-bottom: 30px;
-}
-.animation_img{
-    display: block;
-    margin: 0 auto;
-    border-radius: 35px;
-}
-.animation_chekbox input{
-    width: 25px;
-    height: 25px;
+.animation {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  height: 600px;
 }
 
+.animation__text,
+.animation_chekbox {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.animation_img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 35px;
+  max-width: 53vw;
+}
+
+.animation_chekbox input {
+  width: 25px;
+  height: 25px;
+}

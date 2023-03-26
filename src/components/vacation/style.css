@@ -1,65 +1,74 @@
-*{
-    font-family: Lato;
+* {
+  font-family: Lato;
 }
-.conteiner{
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-.section-line{
-    border-bottom: 1px solid rgba(208, 212, 216, 0.5);
-}
-.conteiner-content{
-    max-width: 970px;
-    margin: 0 auto;
-    
- 
-}
-.reason{
-    padding: 80px 0 0;
-}
-.title{
-    font-family: Georgia;
-    font-size: 32px;
-    line-height: 38px;
-    text-align: center;
-    color: #4E5665;
 
+.conteiner {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
-.reason__title{
-margin-bottom: 22px;
+
+.section-line {
+  border-bottom: 1px solid rgba(208, 212, 216, 0.5);
 }
-.reason__text{
-font-size: 16px;
-line-height: 28px;
-align-items: center;
-color: #505050;
+
+.conteiner-content {
+  max-width: 970px;
+  margin: 0 auto;
 }
-.reason__link{
-    text-align: right;
-    
+
+.reason {
+  padding: 80px 0 0;
 }
-.reason__link a{
-font-weight: 700;
-color: #ECB84C;
-margin-bottom: 36px;
+
+.title {
+  font-family: Georgia;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #4e5665;
 }
-.reason__statistics{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 80px;
+
+.reason__title {
+  margin-bottom: 22px;
 }
-.reason__statistics-num{
-    margin-top: 32px;
-    color: #4e5665;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 30px;
+
+.reason__text {
+  font-size: 16px;
+  line-height: 28px;
+  align-items: center;
+  color: #505050;
 }
-.reason__statistics-text{
-    color: #909090;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
+
+.reason__link {
+  text-align: right;
+}
+
+.reason__link a {
+  font-weight: 700;
+  color: #ecb84c;
+  margin-bottom: 36px;
+}
+
+.reason__statistics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.reason__statistics-num {
+  margin-top: 32px;
+  color: #4e5665;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.reason__statistics-text {
+  color: #909090;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
 }
